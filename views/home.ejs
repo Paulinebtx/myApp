@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+
+  
+  <!-- <link rel="stylesheet" type="text/css" href="static/stylesheet/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="static/stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="static/stylesheets/index.css">
+	<noscript><link rel="stylesheet" href="static/stylesheet/noscript.css" /></noscript>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  
+  <title>Myapp</title>
+
+</head>
+<body>
+
+	
+  <body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Discover</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="home.ejs">Home</a></li>
+							<li><a href="home.ejs">Activity</a></li>
+							<li><a href="home.ejs">Add Activity</a></li>
+							<li><a href="home.ejs">About</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<div class="logo">
+							<img id="imglogo" src="static/images/logo2.png" alt="logoapp">
+						</div>
+								 
+							</header>
+							
+							<div class="content">
+								<!-- <p>A responsive site template designed by HTML5 UP<br />
+								and released under the Creative Commons.</p> -->
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Find your Activity</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="static/images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Nature</a></h3>
+										<!-- <p>Ipsum dolor sit amet</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="static/images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Adventure</a></h3>
+										<!-- <p>feugiat amet tempus</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="static/images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Spot</a></h3>
+										<!-- <p>Lorem etiam nullam</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="static/images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Cultural</a></h3>
+										<!-- <p>Nisl sed aliquam</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="static/images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Sport</a></h3>
+										<!-- <p>Ipsum dolor sit amet</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="static/images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="home.ejs" class="link">Relaxing</a></h3>
+										<!-- <p>Feugiat amet tempus</p> -->
+									</header>
+								</article>
+							</section>
+							<div class="addActivity">
+
+							<h1>Share Your Activities</h1>
+
+				<div class="container">
+						<div class="shareinput">
+							<input type="text" id="input" placeholder="Name" name="share">
+							<input type="text" id="input2" placeholder="Location" name="share">
+							<input type="text" id="input3" placeholder="Price" name="share">
+						</div>
+						
+						<div class="checkbox">
+							<input name="activity" type="checkbox" id="inputcheck" value="adventure">
+							<label for="adventure">Adventure</label>
+							<input name="activity" type="checkbox" id="inputcheck2" value="spot">
+							<label for="spot">Spot</label>
+							<input name="activity" type="checkbox" id="inputcheck3" value="nature">
+							<label for="nature">Nature</label>
+							<input name="activity" type="checkbox" id="inputcheck4" value="relaxing">
+							<label for="relaxing">Relaxing</label>
+							<input name="activity" type="checkbox" id="inputcheck5" value="cultural">
+							<label for="cultural">Cultural</label>
+							<input name="activity" type="checkbox" id="inputcheck6" value="Sport">
+							<label for="cultural">Sport</label>
+
+							<div class="btn">
+							<button id="share-activity">Add it</button>
+						</div>
+						</div>
+					</div>
+
+						<div id="cards">
+					
+						</div>
+					</div>
+						
+					</div>
+					
+
+<!-- script -->
+
+  <script src="static/scripts/jquery.min.js"></script>
+	<script src="static/scripts/jquery.scrolly.min.js"></script>
+	<!-- <script src="static/scripts/jquery.scrollex.min.js"></script> -->
+	<script src="static/scripts/browser.min.js"></script>
+	<script src="static/scripts/breakpoints.min.js"></script>
+	<!-- <script src="static/scripts/util.js"></script> -->
+	<script src="static/scripts/index.js"></script>
+
+
+ 
+
+
+</body>
+</html>
